@@ -268,6 +268,7 @@ def main():
 				tmp = -int(detail)
 				flag = 1
 			else:
+				# set adjacent nodes for u.
 				graph.gsetadjnodes(tmp, int(detail))
 				val = val + " " + str(-tmp) + " " + detail
 	
